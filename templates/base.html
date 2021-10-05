@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    {% include 'head.html' %}
+</head>
+<body>
+
+{% include 'sidebar.html' %}
+
+<div class="page">
+    {% include 'header.html' %}
+    {% block content %}
+
+    {% endblock content %}
+    {% include 'footer.html' %}
+
+</div>
+
+
+{% include 'script.html' %}
+</body>
+</html>
+
+
